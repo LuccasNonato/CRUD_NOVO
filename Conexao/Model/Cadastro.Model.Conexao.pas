@@ -8,7 +8,7 @@ uses
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Stan.Param,
   FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt, FireDAC.VCLUI.Wait,
   FireDAC.Comp.UI, FireDAC.Comp.DataSet, FireDAC.Comp.Client, FireDAC.Stan.ExprFuncs, FireDAC.Phys.SQLiteDef,
-  FireDAC.Phys.SQLite;
+  FireDAC.Phys.SQLite, Vcl.Dialogs;
 
 Type
   TModelConexao = class(TInterfacedObject, iConexao, iConexaoParametros)
@@ -92,8 +92,24 @@ begin
 end;
 
 procedure TModelConexao.Parametros;
+var
+  OpenDialog: TFileOpenDialog; 
 begin
-  Self.ParamsDataBase('C:\Bancos\Banco.db');
+  OpenDialog := TFileOpenDialog.Create(nil);
+  try
+    OpenDialog.Filter := 'SQLite Database Files|*.db|All Files|*.*';
+    if OpenDialog.Execute then
+    begin
+      FParamsDataBase := OpenDialog.FileName; 
+    end
+    else
+    begin
+      FParamsDataBase := 'C:\Bancos\Banco.db';
+    end;
+  finally
+    OpenDialog.Free;
+  end;
+
   Self.DriverName('sqlite');
   FConexao.DriverName := FDriverName;
   FConexao.Params.Database := FParamsDataBase;
