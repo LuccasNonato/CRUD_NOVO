@@ -1,0 +1,41 @@
+    Encontre um lugar seguro:
+        Estacione o carro em um local seguro. Puxar o freio de mão.
+
+    Prepare os materiais necessários:
+        Verificar e identificar o pneu furado, Abrir porta malas e pegar o macaco, chave de roda e o triangulo sinalizador. 
+
+    Afrouxe os parafusos:
+        Usando a chave de roda, afrouxe os parafusos do pneu furado, mas não os retire completamente ainda.
+
+    Posicione o macaco:
+        Coloque o macaco no local plaino e ao pneu furado. Levante o carro até que o pneu não toque mais no chão.
+
+    Retire os parafusos:
+        Retire os parafusos afrouxados e guarde-os em um lugar seguro.
+
+    Tire o pneu furado:
+        Remova o pneu furado coloque-o perto de voce.
+
+    Coloque o pneu sobressalente:
+        Abra o porta malas e pegue o step e coloque no lugar do pneu furado, alinhando os furos dos parafusos. Pressione o pneu contra o eixo para garantir que ele fique bem no lugar.
+
+    Coloque os parafusos no pneu sobressalente:
+        Coloque os parafusos no lugar com a mão e use a chave para apertar o restante.
+
+    Abaixe o carro:
+        Use o macaco para abaixar o carro até que o pneu toque o chão. Retire o macaco.
+
+    Aperte bem os parafusos:
+        Agora, com o pneu no chão, use a chave de roda para apertar bem os parafusos se possivel pode subir em cima da chave, em um padrão cruzado para garantir que tudo esteja firme.
+
+    Guarde os materiais:
+        Coloque o pneu furado de volta no porta-malas, guarde o macaco e a chave de roda.
+	
+	Verificar calibragem do step
+	    Se estiver perto de um posto verificar se está calibrado senão ao achar um lugar com calibragem de pneu e calibrar.
+		
+	Procurar Mecanico
+        Se estiver em um local conhecido ir ao borracheiro de confiança e arrumar o step senão procurar um borracheiro qualquer na região.
+
+    Fique tranquilo e siga viagem:
+        Agora, com o pneu trocado e tudo no lugar, você pode voltar à estrada com segurança.

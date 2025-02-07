@@ -1,0 +1,5 @@
+3 - Esse comando retorna todos os nomes e códigos dos clientes, ordenados pelo nome:
+
+SELECT codigo_cliente, nome
+FROM clientes
+ORDER BY nome; pode utilizar asc ou desc para crescente ou decrescente
