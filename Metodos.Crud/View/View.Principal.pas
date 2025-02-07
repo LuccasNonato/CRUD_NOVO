@@ -305,12 +305,22 @@ begin
 end;
 
 procedure TMenu.FormCreate(Sender: TObject);
+var
+  Conexao: TModelConexao;
 begin
   DBGridBusca.Align := alClient;
   pnlAltera.Align := alLeft;
 
-  FBusca:= TModelEntidadeClientes.new;
+  Conexao := TModelConexao.Create;
+  try
+    FDConnection1.Close;
+    FDConnection1.Params.Values['Database'] := Conexao.GetDatabasePath;
+    FDConnection1.Open;
+  finally
+    Conexao.Free;
+  end;
 
+  FBusca := TModelEntidadeClientes.New;
   FBusca.Listar(DsBusca);
 end;
 
