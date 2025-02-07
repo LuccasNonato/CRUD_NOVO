@@ -5,3 +5,11 @@ A View em Si utilizei um pouco procedural podemos sempre fazer algo bem pensado 
 
 
 Problemas: Tive alguns problemas Com Conexões tentando montar um REST para consumir a viaCEP porém o Delphi XE7 Não se comportou como imaginava em minha maquina, ReportBuilder como é um aplicativo novo que peguei para utilizar até busquei alguns videos de como fazer um agrupamento por UID sendo o codigo_cidade mas sem sucesso.
+
+
+
+Caso tiver dúvidas estou disponível para conversar melhor sobre o projeto! 
+
+[Luccasnonatodev.tech](https://luccasnonatodev.tech/)
+
+https://www.linkedin.com/in/luccas-nonato-67b755212/
