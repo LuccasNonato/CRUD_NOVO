@@ -93,7 +93,7 @@ end;
 
 procedure TModelConexao.Parametros;
 begin
-  Self.ParamsDataBase('C:\Users\Luccas\Desktop\Sinqia\bd\Banco.db');
+  Self.ParamsDataBase('C:\Bancos\Banco.db');
   Self.DriverName('sqlite');
   FConexao.DriverName := FDriverName;
   FConexao.Params.Database := FParamsDataBase;
