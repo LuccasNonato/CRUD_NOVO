@@ -1,0 +1,5 @@
+6 - comando INSERT para adicionar um novo cliente com valores fictícios:
+
+INSERT INTO clientes (codigo_cliente, nome, codigo_cidade, cgc_cpf_cliente, telefone, endereco, complemento, e_mail, cep, bairro)
+VALUES (101, 'João Silva', 1, '12345678901234', '(14) 3404-3700', 'Rua Fictícia, 123', 'Apto 101', 'joao@exemplo.com', '12345-678', 'Centro');
+

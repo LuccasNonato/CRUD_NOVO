@@ -1,0 +1,10 @@
+1 - O comando abaixo retorna os nomes dos clientes da cidade "TUPA", utilizando a condição EXISTS:
+
+SELECT nome
+FROM clientes c
+WHERE EXISTS (
+    SELECT 1
+    FROM cidades ci
+    WHERE ci.nome = 'TUPA' 
+    AND ci.codigo_cidade = c.codigo_cidade
+);

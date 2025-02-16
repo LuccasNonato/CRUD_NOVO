@@ -1,0 +1,5 @@
+5 - Este comando altera o estado de todas as cidades para "SP" quando o estado for "PR":
+
+UPDATE cidades
+SET estado = 'SP'
+WHERE estado = 'PR';

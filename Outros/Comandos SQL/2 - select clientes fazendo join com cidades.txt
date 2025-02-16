@@ -1,0 +1,7 @@
+
+
+2 - Esse comando retorna o nome dos clientes junto com o nome da cidade para todos os registros:
+
+SELECT c.nome AS nome_cliente, ci.nome AS nome_cidade
+FROM clientes c
+JOIN cidades ci ON c.codigo_cidade = ci.codigo_cidade;

@@ -1,0 +1,4 @@
+4 - O comando abaixo exclui os clientes com código entre 100 e 200:
+
+DELETE FROM clientes
+WHERE codigo_cliente BETWEEN 100 AND 200;
